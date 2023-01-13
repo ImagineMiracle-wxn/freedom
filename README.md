@@ -219,7 +219,12 @@ These will place the files under `builds/vc707-u500devkit/obj`.
 The default bootrom consists of a bootloader that loads a program off the SD
 card slot on the VC707 board.
 
+Build sdboot.bin or sdboot.hex run following command:
+```sh
+$ make MODEL=VC707BaseShell -f Makefile.vc707-u500devkit romgen
+```
+
 ### Linux boot Image
 
 The bootable Linux image for vc707 is able to build from the link
-[SD boot image](https://github.com/sifive/freedom-u-sdk).
+[SD boot image](https://github.com/ImagineMiracle-wxn/rvlinux_IM.git).
