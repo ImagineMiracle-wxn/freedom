@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/nvidia-dla-blocks/src/main/scala/devices/nvdla/NVDLA.scala:20:144: trait HasCrossing in package subsystem is deprecated (since rocket-chip 1.3): Only use this trait if you are confident you island will only ever be crossed to a single clock[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass NVDLA(params: NVDLAParams, val crossing: ClockCrossingType = AsynchronousCrossing(8, 3))(implicit p: Parameters) extends LazyModule with HasCrossing {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

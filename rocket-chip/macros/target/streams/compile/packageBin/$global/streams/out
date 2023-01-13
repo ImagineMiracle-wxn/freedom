@@ -1,0 +1,15 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/imaginemiracle/Downloads/freedom/rocket-chip/macros/target/scala-2.12/macros_2.12-1.2.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	freechips/rocketchip[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/imaginemiracle/Downloads/freedom/rocket-chip/macros/target/scala-2.12/classes/freechips/rocketchip[0m
+[0m[[0m[0mdebug[0m] [0m[0m	freechips/rocketchip/macros/ValNameImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/imaginemiracle/Downloads/freedom/rocket-chip/macros/target/scala-2.12/classes/freechips/rocketchip/macros/ValNameImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	freechips/rocketchip/macros/ValNameImpl$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/imaginemiracle/Downloads/freedom/rocket-chip/macros/target/scala-2.12/classes/freechips/rocketchip/macros/ValNameImpl$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	freechips/rocketchip/macros/ValNameImpl$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/imaginemiracle/Downloads/freedom/rocket-chip/macros/target/scala-2.12/classes/freechips/rocketchip/macros/ValNameImpl$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	freechips/rocketchip/macros[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/imaginemiracle/Downloads/freedom/rocket-chip/macros/target/scala-2.12/classes/freechips/rocketchip/macros[0m
+[0m[[0m[0mdebug[0m] [0m[0m	freechips[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/imaginemiracle/Downloads/freedom/rocket-chip/macros/target/scala-2.12/classes/freechips[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

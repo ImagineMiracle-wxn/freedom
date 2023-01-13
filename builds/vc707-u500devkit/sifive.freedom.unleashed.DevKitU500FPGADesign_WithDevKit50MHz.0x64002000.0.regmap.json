@@ -1,0 +1,179 @@
+{
+  "peripheral" : {
+    "displayName" : "deviceAt0x64002000",
+    "baseAddress" : "0x64002000",
+    "regfields" : [ {
+      "input_value" : {
+        "byteOffset" : "0x0",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "input_value",
+        "description" : "Pin value",
+        "accessType" : "R",
+        "volatile" : true
+      }
+    }, {
+      "output_en" : {
+        "byteOffset" : "0x8",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "output_en",
+        "description" : "Pin output enable",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    }, {
+      "rise_ie" : {
+        "byteOffset" : "0x18",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "rise_ie",
+        "description" : "Rise interrupt enable",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    }, {
+      "rise_ip" : {
+        "byteOffset" : "0x1c",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "rise_ip",
+        "description" : "Rise interrupt pending",
+        "accessType" : "RW",
+        "writeType" : "ONE_TO_CLEAR",
+        "volatile" : true
+      }
+    }, {
+      "fall_ie" : {
+        "byteOffset" : "0x20",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "fall_ie",
+        "description" : "Fall interrupt enable",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    }, {
+      "fall_ip" : {
+        "byteOffset" : "0x24",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "fall_ip",
+        "description" : "Fall interrupt pending",
+        "accessType" : "RW",
+        "writeType" : "ONE_TO_CLEAR",
+        "volatile" : true
+      }
+    }, {
+      "high_ie" : {
+        "byteOffset" : "0x28",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "high_ie",
+        "description" : "High interrupt enable",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    }, {
+      "high_ip" : {
+        "byteOffset" : "0x2c",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "high_ip",
+        "description" : "High interrupt pending",
+        "accessType" : "RW",
+        "writeType" : "ONE_TO_CLEAR",
+        "volatile" : true
+      }
+    }, {
+      "low_ie" : {
+        "byteOffset" : "0x30",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "low_ie",
+        "description" : "Low interrupt enable",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    }, {
+      "low_ip" : {
+        "byteOffset" : "0x34",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "low_ip",
+        "description" : "Low interrupt pending",
+        "accessType" : "RW",
+        "writeType" : "ONE_TO_CLEAR",
+        "volatile" : true
+      }
+    }, {
+      "output_value" : {
+        "byteOffset" : "0xc",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "output_value",
+        "description" : "Output value",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    }, {
+      "pue" : {
+        "byteOffset" : "0x10",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "pue",
+        "description" : "Internal pull-up enable",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    }, {
+      "reserved" : {
+        "byteOffset" : "0x38",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "reserved",
+        "resetValue" : 0,
+        "accessType" : "R"
+      }
+    }, {
+      "reserved" : {
+        "byteOffset" : "0x3c",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "reserved",
+        "resetValue" : 0,
+        "accessType" : "R"
+      }
+    }, {
+      "ds" : {
+        "byteOffset" : "0x14",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "ds",
+        "description" : "Pin drive strength selection",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    }, {
+      "input_en" : {
+        "byteOffset" : "0x4",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "input_en",
+        "description" : "Pin input enable",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    }, {
+      "out_xor" : {
+        "byteOffset" : "0x40",
+        "bitOffset" : 0,
+        "bitWidth" : 4,
+        "name" : "out_xor",
+        "description" : "Output XOR (invert) enable",
+        "resetValue" : 0,
+        "accessType" : "RW"
+      }
+    } ]
+  }
+}

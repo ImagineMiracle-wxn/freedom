@@ -1,0 +1,59 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/Emitter.scala:544:9: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: (_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        (dir, tpe) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/passes/InferWidths.scala:226:60: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (AnalogType(_), BundleType(_)), (AnalogType(_), ClockType), (AnalogType(_), FixedType(_, _)), (AnalogType(_), SIntType(_)), (AnalogType(_), UIntType(_)), (AnalogType(_), VectorType(_, _)), (AnalogType(_), _), (BundleType(_), AnalogType(_)), (BundleType(_), ClockType), (BundleType(_), FixedType(_, _)), (BundleType(_), SIntType(_)), (BundleType(_), UIntType(_)), (BundleType(_), VectorType(_, _)), (BundleType(_), _), (ClockType, AnalogType(_)), (ClockType, BundleType(_)), (ClockType, FixedType(_, _)), (ClockType, SIntType(_)), (ClockType, UIntType(_)), (ClockType, VectorType(_, _)), (ClockType, _), (FixedType(_, _), AnalogType(_)), (FixedType(_, _), BundleType(_)), (FixedType(_, _), ClockType), (FixedType(_, _), SIntType(_)), (FixedType(_, _), UIntType(_)), (FixedType(_, _), VectorType(_, _)), (FixedType(_, _), _), (SIntType(_), AnalogType(_)), (SIntType(_), BundleType(_)), (SIntType(_), ClockType), (SIntType(_), FixedType(_, _)), (SIntType(_), UIntType(_)), (SIntType(_), VectorType(_, _)), (SIntType(_), _), (Type(), AnalogType(_)), (Type(), BundleType(_)), (Type(), ClockType), (Type(), FixedType(_, _)), (Type(), SIntType(_)), (Type(), UIntType(_)), (Type(), VectorType(_, _)), (Type(), _), (UIntType(_), AnalogType(_)), (UIntType(_), BundleType(_)), (UIntType(_), ClockType), (UIntType(_), FixedType(_, _)), (UIntType(_), SIntType(_)), (UIntType(_), VectorType(_, _)), (UIntType(_), _), (VectorType(_, _), AnalogType(_)), (VectorType(_, _), BundleType(_)), (VectorType(_, _), ClockType), (VectorType(_, _), FixedType(_, _)), (VectorType(_, _), SIntType(_)), (VectorType(_, _), UIntType(_)), (VectorType(_, _), _), (_, AnalogType(_)), (_, BundleType(_)), (_, ClockType), (_, FixedType(_, _)), (_, SIntType(_)), (_, Type()), (_, UIntType(_)), (_, VectorType(_, _)), (_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def get_constraints_t(t1: Type, t2: Type): Seq[WGeq] = (t1,t2) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/passes/Resolves.scala:87:42: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (MInfer, _), (MPortDir(), _), (MRead, _), (MReadWrite, _), (MWrite, _), (_, MInfer), (_, MPortDir()), (_, MRead), (_, MReadWrite), (_, MWrite), (_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case Some(p) => mports(e.name) = (p, dir) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/proto/FromProto.scala:142:76: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: MEMORY_PORT_DIRECTION_UNKNOWN, UNRECOGNIZED[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def convert(mportdir: Firrtl.Statement.MemoryPort.Direction): MPortDir = mportdir match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/proto/FromProto.scala:251:5: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: PORT_DIRECTION_UNKNOWN, UNRECOGNIZED[0m
+[0m[[0m[33mwarn[0m] [0m[0m    dir match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/transforms/ConstantPropagation.scala:67:42: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (Literal(), _), (SIntLiteral(_, _), UIntLiteral(_, _)), (SIntLiteral(_, _), _), (UIntLiteral(_, _), SIntLiteral(_, _)), (UIntLiteral(_, _), _), (_, Literal()), (_, SIntLiteral(_, _)), (_, UIntLiteral(_, _)), (_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def fold(c1: Literal, c2: Literal) = (c1, c2) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/transforms/DeadCodeElimination.scala:156:27: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Port(_, _, (x: firrtl.ir.Direction forSome x not in (Input, Output)), (x: firrtl.ir.Type forSome x not in firrtl.ir.AnalogType))[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ext.ports.foreach {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/Driver.scala:93:40: method getAnnotationFileName in class FirrtlExecutionOptions is deprecated (since 1.1): Use FirrtlOptions.annotationFileNames instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val oldAnnoFileName = firrtlConfig.getAnnotationFileName(optionsManager)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/ExecutionOptionsManager.scala:378:66: method newInstance in class Class is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m            Class.forName(x).asInstanceOf[Class[_ <: Transform]].newInstance()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/graph/DiGraph.scala:194:29: class Stack in package mutable is deprecated (since 2.12.0): Stack is an inelegant and potentially poorly-performing wrapper around List. Use a List assigned to a var instead.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val stack = new mutable.Stack[T][0m
+[0m[[0m[33mwarn[0m] [0m[0m                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/graph/DiGraph.scala:210:33: class Stack in package mutable is deprecated (since 2.12.0): Stack is an inelegant and potentially poorly-performing wrapper around List. Use a List assigned to a var instead.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val callStack = new mutable.Stack[StrongConnectFrame[T]][0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/passes/clocklist/ClockList.scala:25:23: method getChildrenMap in object WiringUtils is deprecated (since 1.1.1): Use DiGraph/InstanceGraph[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val childrenMap = getChildrenMap(c)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/passes/clocklist/ClockList.scala:27:20: method getLineage in object WiringUtils is deprecated (since 1.1.1): Use DiGraph/InstanceGraph[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val lineages = getLineage(childrenMap, top)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/passes/clocklist/ClockListUtils.scala:21:61: class Lineage in package wiring is deprecated (since 1.1.1): Use DiGraph/InstanceGraph[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def getSourceList(moduleMap: Map[String, DefModule])(lin: Lineage): Seq[String] = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/passes/clocklist/ClockListUtils.scala:39:90: class Lineage in package wiring is deprecated (since 1.1.1): Use DiGraph/InstanceGraph[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def getOrigins(connects: Connects, me: String, moduleMap: Map[String, DefModule])(lin: Lineage): Map[String, String] = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/firrtl/src/main/scala/firrtl/passes/memlib/ReplaceMemMacros.scala:217:68: method getMyAnnotations in class Transform is deprecated (since 1.1): Just collect the actual Annotation types the transform wants[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case _ => throwInternalError(s"execute: getMyAnnotations - ${getMyAnnotations(state)}")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was one unchecked warning; re-run with -unchecked for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 32 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m18 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mbootstrap class path not set in conjunction with -source 8[0m

@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating /home/imaginemiracle/Downloads/freedom/rocket-chip/chisel3/target/scala-2.12/chisel3_2.12-3.2-SNAPSHOT.jar: stamp changed from lastModified(1673513238853) to lastModified(1673577356532)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/home/imaginemiracle/Downloads/freedom/rocket-chip/chisel3/target/scala-2.12/chisel3_2.12-3.2-SNAPSHOT.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/imaginemiracle/Downloads/freedom/nvidia-dla-blocks/src/main/scala/devices/nvdla/NVDLA.scala, /home/imaginemiracle/Downloads/freedom/nvidia-dla-blocks/src/main/scala/devices/nvdla/Periphery.scala, /home/imaginemiracle/Downloads/freedom/nvidia-dla-blocks/src/main/scala/ip/nvdla.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 3 Scala sources to /home/imaginemiracle/Downloads/freedom/nvidia-dla-blocks/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 78668ea5 for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xsource:2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:reflectiveCalls[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/imaginemiracle/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/imaginemiracle/Downloads/freedom/nvidia-dla-blocks/target/scala-2.12/classes:/home/imaginemiracle/Downloads/freedom/rocket-chip/target/scala-2.12/classes:/home/imaginemiracle/Downloads/freedom/rocket-chip/chisel3/target/scala-2.12/chisel3_2.12-3.2-SNAPSHOT.jar:/home/imaginemiracle/Downloads/freedom/rocket-chip/hardfloat/target/scala-2.12/classes:/home/imaginemiracle/Downloads/freedom/rocket-chip/macros/target/scala-2.12/classes:/home/imaginemiracle/Downloads/freedom/rocket-chip/lib/firrtl.jar:/home/imaginemiracle/.sbt/boot/scala-2.12.4/lib/scala-reflect.jar:/home/imaginemiracle/.ivy2/cache/com.github.scopt/scopt_2.12/jars/scopt_2.12-3.6.0.jar:/home/imaginemiracle/.ivy2/cache/org.json4s/json4s-jackson_2.12/jars/json4s-jackson_2.12-3.5.3.jar:/home/imaginemiracle/.ivy2/cache/org.json4s/json4s-core_2.12/jars/json4s-core_2.12-3.5.3.jar:/home/imaginemiracle/.ivy2/cache/org.json4s/json4s-ast_2.12/jars/json4s-ast_2.12-3.5.3.jar:/home/imaginemiracle/.ivy2/cache/org.json4s/json4s-scalap_2.12/jars/json4s-scalap_2.12-3.5.3.jar:/home/imaginemiracle/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar:/home/imaginemiracle/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar:/home/imaginemiracle/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.8.4.jar:/home/imaginemiracle/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.0.jar:/home/imaginemiracle/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.429898964 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

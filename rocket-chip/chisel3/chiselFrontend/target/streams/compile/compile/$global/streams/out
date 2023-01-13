@@ -1,0 +1,19 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/chisel3/chiselFrontend/src/main/scala/chisel3/core/Aggregate.scala:81:24: method flatten in class Data is deprecated (since chisel3): pending removal once all instances replaced[0m
+[0m[[0m[33mwarn[0m] [0m[0m    SeqUtils.do_asUInt(flatten.map(_.asUInt()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/chisel3/chiselFrontend/src/main/scala/chisel3/core/Aggregate.scala:87:15: method flatten in class Data is deprecated (since chisel3): pending removal once all instances replaced[0m
+[0m[[0m[33mwarn[0m] [0m[0m    for (x <- flatten) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/chisel3/chiselFrontend/src/main/scala/chisel3/core/Annotation.scala:47:30: method apply in object Annotation is deprecated (since 1.1): This returns a LegacyAnnotation, use an explicit Annotation type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def toFirrtl: Annotation = Annotation(component.toNamed, transformClass, value)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/chisel3/chiselFrontend/src/main/scala/chisel3/core/Assert.scala:41:57: method lineContent in trait Position is deprecated (since 2.11.0): removed from the public API[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val condStr = s"${p.source.file.name}:${p.line} ${p.lineContent.trim}"[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/chisel3/chiselFrontend/src/main/scala/chisel3/core/Assert.scala:49:57: method lineContent in trait Position is deprecated (since 2.11.0): removed from the public API[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val condStr = s"${p.source.file.name}:${p.line} ${p.lineContent.trim}"[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/imaginemiracle/Downloads/freedom/rocket-chip/chisel3/chiselFrontend/src/main/scala/chisel3/internal/Namer.scala:101:42: object JavaConversions in package collection is deprecated (since 2.12.0): use JavaConverters[0m
+[0m[[0m[33mwarn[0m] [0m[0m    for (descendant <- descendants.values().flatten) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m
