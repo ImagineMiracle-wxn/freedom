@@ -96,16 +96,16 @@ To compile the bootloaders for both Freedom E300 Arty and U500 VC707
 FPGA dev kits, the RISC-V software toolchain must be installed locally and
 set the $(RISCV) environment variable to point to the location of where the
 RISC-V toolchains are installed. You can build the toolchain from scratch
-or download the tools here: https://www.sifive.com/products/tools/
+or download the tools here: https://github.com/ImagineMiracle-wxn/riscv64-unknown-elf-gcc.git
 
 After installing toolchain and vivado, you must set the environment variables.
 
 If you have installed toolchain to
-`/home/riscv/riscv64-elf-tc/bin/riscv64-unknown-elf-gcc`
+`/home/riscv/riscv64-unknown-elf-gcc/bin/riscv64-unknown-elf-gcc`
 then run the following command. Do not include /bin at the end of the string.
 
 ```sh
-$ export RISCV=/home/riscv/riscv64-elf-tc
+$ export RISCV=/home/riscv/riscv64-unknown-elf-gcc
 ```
 
 In order to run the `mcs` target in the next step, you need to have the `vivado`
