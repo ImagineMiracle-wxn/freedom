@@ -53,13 +53,22 @@ sudo apt-get install default-jre
 ```
 
 ### Install sbt, varilator and scala which are required for building from Chisel
-
+**Linux(deb)**
 Build and install sbt.
 ```
-echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 642AC823
+echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
+echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
+curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add
 sudo apt-get update
 sudo apt-get install sbt
+```
+**Linux(rpm)**
+```shell
+# remove old Bintray repo file
+sudo rm -f /etc/yum.repos.d/bintray-rpm.repo || true
+curl -L https://www.scala-sbt.org/sbt-rpm.repo > sbt-rpm.repo
+sudo mv sbt-rpm.repo /etc/yum.repos.d/
+sudo yum install sbt
 ```
 
 Build and install varilator.
