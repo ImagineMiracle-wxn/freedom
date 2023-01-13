@@ -53,8 +53,9 @@ sudo apt-get install default-jre
 ```
 
 ### Install sbt, varilator and scala which are required for building from Chisel
-**Linux(deb)**
+
 Build and install sbt.
+**Linux(deb)**
 ```
 echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
 echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
